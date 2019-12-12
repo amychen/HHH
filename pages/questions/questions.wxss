@@ -1,0 +1,27 @@
+/* pages/questions/questions.wxss */
+.container {
+  background-size: 100% 100%;
+  font-family: 'Circular Black';
+  height: 100vh;
+}
+
+.slides {
+  width: 80%;
+  position: fixed;
+  top: 50%; 
+  background-color: white;
+  padding: 20px;
+  height: 500rpx;
+}
+
+.question {
+  font-size: 39rpx;
+  text-align: center; 
+  color: #FD1016;
+}
+
+button {
+  background-color: white;
+  margin: 10px;
+  font-size: 37rpx;
+}

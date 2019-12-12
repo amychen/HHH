@@ -1,0 +1,78 @@
+/* pages/result/result.wxss */
+.container {
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.hacker {
+  color: #FD1016;
+  font-size: 40rpx;
+  width: 35%;
+  margin-left: 10%;
+  margin-top: -8%;
+}
+
+.hipster {
+  color: #FD1016;
+  font-size: 40rpx;
+  width: 37%;
+  margin-top: 13%;
+}
+
+.hustler {
+  color: #FD1016;
+  font-size: 40rpx;
+  width: 33%;
+  margin-right: 8%;
+  margin-top: -8%;
+}
+
+.keywords {
+  font-size: 25rpx;
+  color: #f7f7f7;
+}
+
+.label {
+  color: white;
+  font-size: 40rpx;
+}
+
+.pie {
+  border-radius: 100%;
+  height: calc(var(--size, 120) * 1px);
+  position: relative;
+  width: calc(var(--size, 120) * 1px);
+  margin-top: 17%;
+  z-index: 0;
+}
+
+.profileImg {
+  width: calc(var(--size, 90) * 1px);
+  height: calc(var(--size, 90) * 1px);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 12%;
+  margin-top: 14%;
+  z-index: 1;
+}
+
+.results {
+  font-family: 'Circular Black';
+  color: white;
+  font-size: 0.1rpx;
+  position: fixed;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.title {
+  font-family: 'Circular Black';
+  color: white;
+  font-size: 30rpx;
+  position: fixed;
+  top: 18%;
+  text-align: center; 
+}

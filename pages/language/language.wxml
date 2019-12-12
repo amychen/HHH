@@ -1,0 +1,8 @@
+<!--pages/language/language.wxml-->
+
+<view class="container" style="background-image:url('../../questionsPage.png')">
+  <view class="languageOptions">
+    <button bindtap="bindViewTap" data-variable="english">ENGLISH</button>
+    <button bindtap="bindViewTap" data-variable="chinese">中文</button>
+  </view>
+</view>

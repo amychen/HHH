@@ -1,0 +1,21 @@
+/**index.wxss**/
+.container {
+  background-size: 100% 100%;
+  height: 100vh;
+} 
+
+text {
+  margin-top: -80rpx;
+  font-family: 'Circular Black';
+  color: #FD1016;
+  font-size: 80rpx;
+}
+
+button {
+  font-family: 'Circular Black';
+  position: fixed;
+  top: 50%;
+  border-radius: 0;
+  border: 2px solid #d4d4d4;
+  font-size: 30rpx;
+}

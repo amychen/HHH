@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container" style="background-image:url('landingPage.png');">
+  <text> {{title}} </text>
+  <button bindtap="bindViewTap"> TAKE THE TEST </button>
+</view>

@@ -1,0 +1,43 @@
+<!--pages/result/result.wxml-->
+
+<view class="container" style="background-image:url('results.png')">
+<view class="pie" style="background: conic-gradient(#efefef 40%, #b7b7b7 0 70%, #565656 0);">
+    <view class="profileImg">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+</view>
+  <view class="title">
+    <open-data type="userNickName"></open-data>,
+    you are: 
+  </view>
+  <view class="results">
+    <view class="hacker">
+      {{hacker}}% 
+      <view class="label">
+        Hacker
+      </view>
+      <text class="keywords">
+        {{hackerKeywords}}
+      </text>
+    </view>
+    <view class="hipster">
+      {{hipster}}% 
+      <view class="label">
+        Hipster
+      </view>
+      <text class="keywords">
+        {{hipsterKeywords}}
+      </text>
+    </view>
+    <view class="hustler">
+      {{hustler}}% 
+      <view class="label">
+        Hustler
+      </view>
+      <text class="keywords">
+        {{hustlerKeywords}}
+      </text>
+    </view>
+  </view>
+  <official-account></official-account>
+</view>
